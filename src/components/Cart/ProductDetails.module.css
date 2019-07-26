@@ -1,0 +1,52 @@
+.condition {
+  font-weight: 400;
+  font-size: .7em;
+  text-transform: none;
+  display: inline-block!important;
+  margin-bottom: 10px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.res_carousel {
+  height: 350px;
+  display: flex;
+}
+
+.discount {
+  font-weight: 500;
+  font-size: 12px;
+  color: #2fada1;
+  display: block;
+  text-transform: none;
+}
+
+.mark_price {
+  font-weight: 500;
+  color: #a9a9a9;
+  margin-left: 10px;
+  text-decoration: line-through;
+  text-transform: none;
+}
+
+.sale_price {
+  font-weight: 700;
+}
+
+.price {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.desc {
+  font-weight: 400;
+  margin-right: 40px;
+  line-height: 1.5;
+}
+
+.divider {
+  margin-bottom: 10px;
+}

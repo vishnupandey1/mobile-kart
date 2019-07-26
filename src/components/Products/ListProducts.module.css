@@ -1,0 +1,16 @@
+.grid {
+  margin: 80px;
+  display: flex;
+  flexWrap: wrap;
+  justifyContent: space-around;
+  overflow: hidden;
+}
+
+.grid_list_tile {
+  padding:10px!important;
+}
+
+.loader {
+  margin-left: 48%;
+  margin-top: 33px;
+}

@@ -1,0 +1,28 @@
+.card {
+  border: solid 1px #EFEFEF;
+  box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+.grid_list_tile {
+  padding:10px!important;
+}
+
+.sale_msg {
+  font-size: 10px;
+  color: #2fada1;
+}
+
+.mark_price {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: grey;
+}
+
+.sale_price {
+  font-size: 14px;
+  margin-left: 16px;
+  margin-right: 22px;
+}
