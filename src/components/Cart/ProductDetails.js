@@ -53,7 +53,7 @@ class ProductDetails extends React.Component {
   }
 
   componentDidMount () {
-    this.updatedItemDetail()
+    this.updatedItemDetail(this.state.selected_option_ids)
   }
 
   handleActiveTabChange = (id, tabName) => (e) => {
@@ -64,12 +64,12 @@ class ProductDetails extends React.Component {
     } else {
       selected_option_ids[1] = id;
     }
-    this.setState({ selected_option_ids }, this.updatedItemDetail());
+
+    this.updatedItemDetail(selected_option_ids);
   };
 
-  updatedItemDetail = () => {
+  updatedItemDetail = (selected_option_ids) => {
     const { product_variations } = this.props.details;
-    const { selected_option_ids } = this.state;
 
     let product_variation =  getProductVariation(product_variations, selected_option_ids);
 
